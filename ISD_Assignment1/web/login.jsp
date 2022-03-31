@@ -7,16 +7,12 @@
         <title>Login</title>
     </head>
     <body>
-        <h1> Log in to IoT Bay </h1>
-        <form action="main.jsp" method="post">
+        <h1>Log in to IoTBay</h1>
+        <form action="/labs/welcome.jsp" method="post">
             <table>
                 <tr>
                     <td><label for="email">Email</label><br></td>
                     <td><input type="email" id="email" name="email" required><br></td>
-                </tr>
-                <tr>
-                    <td><label for="name">Name:</label><br></td>
-                    <td><input type="text" id="name" name="name" required><br></td>
                 </tr>
                 <tr>
                     <td><label for="password">Password:</label><br></td>
@@ -25,7 +21,7 @@
                
             </table>
             <div>
-                <a href="index.jsp">Cancel</a> 
+                <a href=""index.jsp">Cancel</a> 
                 <input type="submit" formmethod="post" value="Login"><br>
             </div>
     </body>

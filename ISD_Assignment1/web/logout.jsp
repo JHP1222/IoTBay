@@ -6,7 +6,11 @@
         <title>Logout</title>
     </head>
     <body>
-        <h1>Logout Page</h1>
-        <a href="index.jsp">Logout</a>
+        <h1>Logout of IoTBay</h1>
+        <%
+            String name = request.getParameter("name");
+        %>
+        <h1>We hoped you enjoyed your browsing experience <%= name %>!</h1>
+        <a href="index.html">Logout</a>
     </body>
 </html>

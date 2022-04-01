@@ -8,7 +8,7 @@
     </head>
     <body>
         <h1>Log in to IoTBay</h1>
-        <form action="/labs/welcome.jsp" method="post">
+        <form action="/welcome.jsp" method="post">
             <table>
                 <tr>
                     <td><label for="email">Email</label><br></td>

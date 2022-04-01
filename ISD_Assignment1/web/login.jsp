@@ -23,6 +23,7 @@
             <div>
                 <a href=""index.jsp">Cancel</a> 
                 <input type="submit" formmethod="post" value="Login"><br>
+                <a href=""main.jsp">Login as guest</a>
             </div>
     </body>
 </html>

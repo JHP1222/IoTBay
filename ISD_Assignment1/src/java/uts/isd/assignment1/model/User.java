@@ -1,4 +1,4 @@
-package uts.isd.model;
+package uts.isd.assignment1.model;
 
 /**
  *

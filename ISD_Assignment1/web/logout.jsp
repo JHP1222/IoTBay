@@ -11,7 +11,7 @@
         <%
             String name = request.getParameter("name");
         %>
-        <h1>We hoped you enjoyed your browsing experience <%= name %>!</h1>
+        <h1>We hoped you enjoyed your browsing experience!</h1>
         <a href="index.html">Logout</a>
         <%session.invalidate(); %>
     </body>

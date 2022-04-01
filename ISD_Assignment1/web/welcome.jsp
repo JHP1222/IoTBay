@@ -10,6 +10,9 @@
     <body>
         <%
             String name = request.getParameter("name");
+            String email = request.getParameter("email");
+            String password = request.getParameter("password");
+            String dob = request.getParameter("dob");
         %>
         <h1>Welcome to IoTBay <%= name %>!</h1>
         <p>We hope you enjoy your browsing experience</p>

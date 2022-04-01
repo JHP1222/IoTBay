@@ -12,5 +12,6 @@
         %>
         <h1>We hoped you enjoyed your browsing experience <%= name %>!</h1>
         <a href="index.html">Logout</a>
+        <%session.invalidate(); %>
     </body>
 </html>

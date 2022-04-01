@@ -15,6 +15,10 @@
                     <td><input type="email" id="email" name="email" required><br></td>
                 </tr>
                 <tr>
+                    <td><label for="name">Name</label><br></td>
+                    <td><input type="name" id="name" name="name" required><br></td>
+                </tr>
+                <tr>
                     <td><label for="password">Password:</label><br></td>
                     <td><input type="password" id="password" name="password" required><br></td>
                 </tr>
